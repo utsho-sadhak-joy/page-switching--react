@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Card from './components/Card';
+import Puja from './components/Puja';
 import {Container} from 'react-bootstrap'
 
 
@@ -16,7 +17,7 @@ function App() {
       <Container>
         {active === "firstCard" && <Card title="p" />}
         {active === "secondCard" && <Card title="2" />}
-        {active === "thirdCard" && <Card title="3" />}
+        {active === "thirdCard" && <Puja title="3" />}
         
       </Container>
       
