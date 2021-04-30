@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-// import Home from './components/Home';
-// import Sathy from './components/Sathy';
 import Card from './components/Card';
 import {Container} from 'react-bootstrap'
 
@@ -16,7 +14,7 @@ function App() {
         <button onClick={()=> setActive("thirdCard")}>three</button>
       </nav>
       <Container>
-        {active === "firstCard" && <Card title="1" />}
+        {active === "firstCard" && <Card title="p" />}
         {active === "secondCard" && <Card title="2" />}
         {active === "thirdCard" && <Card title="3" />}
         

@@ -1,6 +1,6 @@
 import React from 'react'
 import './CSS/Style.css';
-import container from 'react-bootstrap';
+
 
 const Card = ({title}) => {
     return (
